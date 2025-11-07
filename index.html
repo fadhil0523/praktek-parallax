@@ -18,7 +18,6 @@
       rel="stylesheet"
     />
     <title>Praktek parallax</title>
-    
   </head>
   <body>
     <div id="breadone">
@@ -70,8 +69,7 @@
       <div>
         <img src="./aset/leaf.png" alt="" class="leaf" />
       </div>
-      <div class="burger">
-      </div>
+      <div class="burger"></div>
     </section>
 
     <!-- page 2 -->
@@ -84,6 +82,69 @@
         </div>
       </div>
     </section>
+
+    <!-- section two -->
+
+    <section id="about">
+      <div class="container">
+        <div class="card-one">
+          <div class="wrap-image">
+            <img src="./aset/rounded.png" alt="" />
+          </div>
+          <div class="text-card">
+            <div class="text-card">
+              <h3>headline</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sapiente sed numquam impedit sequi.
+              </p>
+              <button>See more</button>
+            </div>
+          </div>
+        </div>
+        <div class="card-one">
+          <div class="wrap-image">
+            <img src="./aset/rounded.png" alt="" />
+          </div>
+          <div class="text-card">
+            <div class="text-card">
+              <h3>headline</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sapiente sed numquam impedit sequi.
+              </p>
+              <button>See more</button>
+            </div>
+          </div>
+        </div>
+        <div class="card-one">
+          <div class="wrap-image">
+            <img src="./aset/rounded.png" alt="" />
+          </div>
+          <div class="text-card">
+            <div class="text-card">
+              <h3>headline</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sapiente sed numquam impedit sequi.
+              </p>
+              <button>See more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <script src="./script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.4/dist/confetti.browser.min.js"></script>
+  <script>
+    window.onload = function () {
+      confetti ({
+        particleCount: 500,
+        spread: 700,
+        origin: {y:0.4}
+
+      });
+    };
+  </script>
   </body>
 </html>
