@@ -28,7 +28,7 @@
 .btn-one {
   padding: 15px 50px;
   margin-top: 40px;
-  background-color: #a80000;
+  background-color: transparent;
   color: white;
   border: 1px solid white;
   font-weight: bold;
@@ -128,16 +128,6 @@
   background: linear-gradient(#4e1919, #a80000);
   margin-top: -50px;
 }
-#dotOne {
-  color: white;
-  position: absolute;
-  right: 0;
-}
-#dotDescription {
-  margin-top: -100px;
-  position: absolute;
-  right: 0;
-}
 .container {
   margin: 100px 5%;
   display: flex;
@@ -172,4 +162,13 @@
 }
 .text-card {
   padding: 12px;
+}
+#dotDescriptionOne{
+  margin-top: 30px;
+}
+#dotOne{
+  color: white;
+}
+.desc-one{
+  color: white;
 }
